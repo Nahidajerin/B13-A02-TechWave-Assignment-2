@@ -65,6 +65,25 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+.panel-img .badge{
+    color: #1A0B2E;
+    font-family: Inter;
+    font-style: Semi Bold;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    border-radius: 1000px;
+    padding: 8px 16px 8px 16px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    background: #00FF88;
+    position: absolute;
+    top: 0;
+    right: 30px;
 }
 .panel-title h2{
     color: rgba(255, 255, 255, 1);
