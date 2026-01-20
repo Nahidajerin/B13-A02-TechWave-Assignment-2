@@ -119,7 +119,6 @@ nav a{
 
 
 .about-main{
-    height: 646px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -179,4 +178,106 @@ nav a{
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
+}
+/* grid  */
+.why-techwave{
+    background-color: #1A0B2E;
+    padding: 120px 200px 120px 200px;
+    /* padding: 20px; */
+}
+.why-techwave .title{
+   color: #FFFFFF;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.box-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+
+/* .first-row{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+} */
+.text{
+    width: 1200px;
+    height: 659px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+}    
+
+   
+    
+.box{
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+    padding: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 20px 40px rgba(0,0,0,.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box h2{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: capitalize;
+
+}
+.box p{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+
+.box img{
+    width: 60px;
+}
+
+.box1 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.box2 {
+    grid-column: span 2;
+    height: 225px;
+}
+
+.box3 {
+    grid-column: span 2;
+    height: 225px;
+}
+
+.box4 {
+    grid-column: span 2;
+    
+}
+
+.box5 {
+    grid-column: span 1; 
 }
