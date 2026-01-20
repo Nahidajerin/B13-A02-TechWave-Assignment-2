@@ -332,6 +332,7 @@ nav a{
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+     opacity: 0.6;
 }
 
 .features-child span{
@@ -346,4 +347,42 @@ nav a{
 }
 .features-child .details{
     padding: 24px;
+}
+
+.features .host{
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+}
+.host h2{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.host p{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+}
+.host-text span{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 27px;
+    padding: 18px;
+    border: 1px solid rgba(83, 60, 114, 1);
 }
