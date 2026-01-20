@@ -281,3 +281,69 @@ nav a{
 .box5 {
     grid-column: span 1; 
 }
+
+
+.features{
+    background: rgba(26, 11, 46, 1);
+    padding: 120px 200px 120px 200px;
+}
+
+.features h2{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.features-parent {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.features-child{
+    overflow: hidden;
+    border-radius: 0px 0px 24px 24px;
+    background: rgba(37, 13, 68, 1);
+}
+.features-child .video{
+    width: 380px;
+}
+.features-child h2{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.features-child p{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.features-child span{
+    color: #00FF88;
+    font-family: Inter;
+    font-style: Semi Bold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.features-child .details{
+    padding: 24px;
+}
