@@ -45,7 +45,10 @@ nav a{
     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
 
-
+.logo img{
+    width: 219px;
+    height: 32px;
+}
 .panel{
     background-image: url(./assets/hero-bg.png);
     height: 627px;
