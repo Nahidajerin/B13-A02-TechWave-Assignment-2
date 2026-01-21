@@ -44,7 +44,9 @@ nav a{
     height: 44px;
     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
-
+.menu-mobile{
+    display: none;
+}
 .logo img{
     width: 219px;
     height: 32px;
@@ -447,4 +449,115 @@ nav a{
     display: flex;
     align-items: center;
     gap: 11px;
+}
+
+
+/* Responsive Code  */
+@media screen and (max-width: 768px) {
+   body{
+    padding: 0;
+    margin: 0;
+   }
+   .navbar{
+        padding: 12px 20px 12px 20px;;
+   }
+  .navbar .logo img{
+    width: 137px;
+    height: 20px;
+  }
+  .navbar .menu-mobile{
+    display: block;
+  }
+  .navbar .menu,.navbar .login{
+    display: none;
+  }
+  .panel {
+    height: 440px;
+    background-size: 100% 100%;
+    padding: 30px;
+
+  }
+  .panel-img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+  }
+  .panel-img img{
+    width: 80px;
+    height: 80px;
+  }
+    .panel-img .badge {
+        right: -15px;
+    }
+   
+    .panel-title h2 {
+        font-size: 40px;
+    }
+    .panel-title p {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 1);
+        opacity: 0.8;
+        font-family: Inter;
+        font-style: Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .about .title h2{
+        font-size: 32px;
+    }
+    .about .title p{
+        opacity: 0.8;
+    }
+
+  .about-main {
+    padding: 20px;
+    align-items: initial;
+    }
+    .parent-list {
+        display: flex;
+        gap: 0px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .why-techwave {
+        padding: 20px;
+    }
+    .why-techwave .title{
+        font-size: 32px;
+    }
+    .box1, .box2, .box3, .box4, .box5 {
+        grid-column: span 3;
+    }
+    .features{
+        padding: 20px;
+    }
+    .features h2{
+        font-size: 32px;
+        text-align: center;
+    }
+    .host p {
+        text-align: center;
+    }
+    .features-parent{
+        flex-direction: column;
+    }
+    .features .host {
+        flex-direction: column;
+        align-items: center;
+    }
+    .host-text{
+        text-align: center;
+    }
+    .social {
+     flex-wrap: wrap;
+     gap: 10px;
+    }
+    .social span {
+        gap: 5px;
+        flex: 0 0 33%;
+        justify-content: center;
+    }
 }
